@@ -1,0 +1,12 @@
+package ProblemSolving;
+
+
+/// ???????????????????????
+public class UtopianTree {
+
+    public static int utopianTree(int n) {
+        return (1 << ((n >> 1) + 1)) - 1 << n % 2;
+        // Write your code here
+
+    }
+}
